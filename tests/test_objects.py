@@ -1,4 +1,7 @@
-from pygeo.objects import Point, Vector
+import pytest
+from pygeo.objects import Point,Vector,Sphere,Ray
+
+
 
 # Point.__eq__
 def test__point_equal__given_two_equal_points__return_true():

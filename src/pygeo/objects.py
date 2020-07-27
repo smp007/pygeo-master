@@ -57,7 +57,6 @@ class Vector:
         return False
 
 
-
 class Ray:
     """A ray."""
     def __init__(self,origin,direction):
@@ -89,7 +88,6 @@ class Sphere:
         return False
 
     ...
-
 
 
 class Triangle:
