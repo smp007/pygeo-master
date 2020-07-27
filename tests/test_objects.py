@@ -18,6 +18,13 @@ def test__vector_equal__given_two_not_equal_vectors__return_false():
     assert (Vector((1, 2, 3)) == Vector((4, 5, 6))) is False
 
 
+# Ray.__eq__
+def test__ray_equal__given_two_equal_rays__return_true():
+    assert (Ray(Point((1,1,1)),Vector((1,2,3))) == Ray(Point((1,1,1)),Vector((1,2,3)))) is True
+
+def test__ray_equal__given_two_not_equal_rays__return_false():
+    assert (Ray(Point((1,1,1)),Vector((1,2,3))) == Ray(Point((2,3,1)),Vector((5,7,8)))) is False
+
 # Point.__add__
 def test__point_addition__given_point_and_vector__return_correct_point():
     """The result of a vector being added to a point is a point."""
