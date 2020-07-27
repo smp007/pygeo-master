@@ -38,7 +38,7 @@ class Vector:
         self._vector = np.array(vector, dtype=float)
 
     def __repr__(self):
-        return f"Point({self._vector.tolist()})"
+        return f"Vector({self._vector.tolist()})"
 
     def __add__(self, other):
         if isinstance(other, Vector):
@@ -48,7 +48,8 @@ class Vector:
     def __sub__(self, other):
         if isinstance(other, Vector):
             return Vector(self._vector - other._vector)
-        return NotImplemented
+        return NotImplemented   
+
 
     def __eq__(self, other):
         if isinstance(other, Vector):
@@ -56,16 +57,39 @@ class Vector:
         return False
 
 
+
 class Ray:
     """A ray."""
+    def __init__(self,origin,direction):
+        self._origin = origin
+        self._direction = direction
 
-    ...
-
+    def __repr__(self):
+        return f"Ray(origin = {self._origin},direction = {self._direction})"
+        
+    def __eq__(self,other):
+        if isinstance(other,Ray):
+            return np.array_equal(other._origin,self._origin) and np.array_equal(other._direction,self._direction) 
+        return False
+    
 
 class Sphere:
     """A sphere."""
+    def __init__(self,center,radius):
+        self._center = center
+        self._radius = radius
+
+    def __repr__(self):
+        return f"Sphere(center = {self._center},radius = {self._radius})"
+        
+
+    def __eq__(self, other):
+        if isinstance(other, Sphere):
+            return np.array_equal(other._center,self._center) and (other._radius==self._radius)
+        return False
 
     ...
+
 
 
 class Triangle:
