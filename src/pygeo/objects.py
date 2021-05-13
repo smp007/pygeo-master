@@ -94,3 +94,13 @@ class Triangle:
     """A triangle."""
 
     ...
+
+
+
+class Hexagon:
+"""A Hexagon"""
+
+
+
+class Pentagon:
+"""A Pentagon"""
