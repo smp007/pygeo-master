@@ -69,9 +69,11 @@ $$ f(I_{max},t) = \left\{\begin{array}{cl} 12 & : \  600    < t < 1000 \\ \frac{
 
 
 
-
+<!-- 
 
 <script type="text/javascript" async
 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
 config=TeX-MML-AM_CHTML"
 </script>
+
+This is commented out. -->
