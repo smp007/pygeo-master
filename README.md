@@ -12,7 +12,7 @@ This is commented out. -->
 
 
 
-<img src="https://latex.codecogs.com/svg.image?$$f\left(I_{\max&space;},&space;t\right)=\left\{\begin{array}{cl}12&space;&&space;:&space;600<t<1000&space;\\\frac{I_{\max&space;}-12}{70}&space;t&plus;12&space;&:&space;1000<t<1070&space;\\I_{\max&space;}&space;&&space;:&space;1070<t<1160\end{array}\right.$$" title="https://latex.codecogs.com/svg.image?$$f\left(I_{\max }, t\right)=\left\{\begin{array}{cl}12 & : 600<t<1000 \\\frac{I_{\max }-12}{70} t+12 &: 1000<t<1070 \\I_{\max } & : 1070<t<1160\end{array}\right.$$" />
+<img src="https://latex.codecogs.com/svg.image?$$f\left(I_{\max&space;},&space;t\right)=\left\{\begin{array}{cl}12&space;&&space;:&space;600<t<1000&space;\\\frac{I_{\max&space;}-12}{70}&space;t&plus;12&space;&:&space;1000<t<1070&space;\\I_{\max&space;}&space;&&space;:&space;1070<t<1160\end{array}\right.$$" 
 
 
 PyGeo
