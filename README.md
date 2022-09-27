@@ -56,3 +56,4 @@ As an optional extra exercise, implement
 
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
+$R_a = \frac{1}{l_e} = \int_0^{l_e} \left\| z(x) \right\| dx$
