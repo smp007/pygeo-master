@@ -1,5 +1,18 @@
 
 
+
+
+<!-- 
+
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
+This is commented out. -->
+
+
+
 PyGeo
 =====
 
@@ -57,6 +70,8 @@ $R_a = \frac{1}{l_e} = \int_0^{l_e} \left\| z(x) \right\| dx$
 
 
 
+
+
 $$ f(I_{max},t) = \left\{\begin{array}{cl} 12 & : \  600    < t < 1000 \\ \frac{I_{max} - 12}{70} t + 12 & : \  1000  < t < 1070 \\ I_{max} & : \  1070  < t < 1160 \\ \end{array} \right $$
 
 
@@ -66,14 +81,3 @@ $$ f(I_{max},t) = \left\{\begin{array}{cl} 12 & : \  600    < t < 1000 \\ \frac{
 
 
 
-
-
-
-<!-- 
-
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
-
-This is commented out. -->
