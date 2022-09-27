@@ -46,3 +46,6 @@ As an optional extra exercise, implement
 1. the missing `Triangle` class,
 1. the missing `_intersect_ray_and_triangle` function and accompanying tests, and
 1. the missing `intersect` that calls either `_intersect_ray_and_sphere` or `_intersect_ray_and_triangle` depending on the arguments.
+
+<img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}">
+
