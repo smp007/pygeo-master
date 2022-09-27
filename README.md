@@ -47,5 +47,5 @@ As an optional extra exercise, implement
 1. the missing `_intersect_ray_and_triangle` function and accompanying tests, and
 1. the missing `intersect` that calls either `_intersect_ray_and_sphere` or `_intersect_ray_and_triangle` depending on the arguments.
 
-<img src="https://render.githubusercontent.com/render/math?mathf(I_{max},t) = \left\{\begin{array}{cl} 12 & : \  600    < t < 1000 \\ \frac{I_{max} - 12}{70} t %2B 12 & : \  1000  < t < 1070 \\ I_{max} & : \  1070  < t < 1160 \\ \end{array} \right">
+<img src="https://render.githubusercontent.com/render/math?math=f(I_{max},t) = \left\{\begin{array}{cl} 12 & : \  600    < t < 1000 \\ \frac{I_{max} - 12}{70} t %2B 12 & : \  1000  < t < 1070 \\ I_{max} & : \  1070  < t < 1160 \\ \end{array} \right">
 
