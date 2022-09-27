@@ -11,13 +11,6 @@ config=TeX-MML-AM_CHTML"
 This is commented out. -->
 
 
-
-<img src="https://latex.codecogs.com/svg.image?$$f\left(I_{\max&space;},&space;t\right)=\left\{\begin{array}{cl}12&space;&&space;:&space;600<t<1000&space;\\\frac{I_{\max&space;}-12}{70}&space;t&plus;12&space;&:&space;1000<t<1070&space;\\I_{\max&space;}&space;&&space;:&space;1070<t<1160\end{array}\right.$$" 
-
-
-     
-     <img src="http://www.sciweavers.org/tex2img.php?eq=%24%24%0Af%5Cleft%28I_%7B%5Cmax%20%7D%2C%20t%5Cright%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bcl%7D%0A12%20%26%20%3A%20600%3Ct%3C1000%20%5C%5C%0A%5Cfrac%7BI_%7B%5Cmax%20%7D-12%7D%7B70%7D%20t%2B12%20%26%3A%201000%3Ct%3C1070%20%5C%5C%0AI_%7B%5Cmax%20%7D%20%26%20%3A%201070%3Ct%3C1160%0A%5Cend%7Barray%7D%5Cright.%0A%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="$$f\left(I_{\max }, t\right)=\left\{\begin{array}{cl}12 & : 600<t<1000 \\\frac{I_{\max }-12}{70} t+12 &: 1000<t<1070 \\I_{\max } & : 1070<t<1160\end{array}\right.$$" width="251" height="103" ></t>
-     
 PyGeo
 =====
 
